@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "playernets",
+  "version": "${version}",
+  "name": "Player Nets",
+  "description": "Auto-tracking Player Nets and Rakeback panels (client-side).",
+  "environment": "client",
+  "entrypoints": { "client": ["com.snowy.playernets.PlayerNetsClient"] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~26.1", "java": ">=25", "fabric-api": "*" }
+}
